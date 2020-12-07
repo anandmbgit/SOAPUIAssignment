@@ -1,0 +1,22 @@
+Status: FAILED
+Time Taken: 364
+Size: 0
+Timestamp: Mon Dec 07 14:38:37 IST 2020
+TestStep: Property Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: net.sf.saxon.trans.XPathException: XPath syntax error at char 1 on line 2 in {\n}:
+    Unexpected token "<eof>" in path expression
+
+----------------- Messages ------------------------------
+Error performing transfer [IDTransfer] - net.sf.saxon.trans.XPathException: XPath syntax error at char 1 on line 2 in {\n}:
+    Unexpected token "<eof>" in path expression
+----------------------------------------------------
+IDTransfer transferred [[net.sf.saxon.trans.XPathException: XPath syntax error at char 1 on line 2 in {\n}:
+    Unexpected token "<eof>" in path expression]] from [OrderIDRequest.Response] to [GetByIdRequest.Request]
+------------ source path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//*:salesOrderRepositoryV1GetResponse/*:result/*:items/*:item/*:orderid	
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+

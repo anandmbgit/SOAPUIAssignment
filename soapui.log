@@ -1,0 +1,36 @@
+2020-12-07 14:35:13,314 WARN  [SoapUI] Missing folder [C:\Users\AnandB\Desktop\Training\SOAPUIAssignmentAnand\ext] for external libraries
+2020-12-07 14:35:13,647 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\AnandB\soapui-settings.xml]
+2020-12-07 14:35:14,792 INFO  [WsdlProject] Loaded project from [file:/C:/Users/AnandB/Desktop/Training/SOAPUIAssignmentAnand/SalesOrderRepocitoryAnand-soapui-project.xml]
+2020-12-07 14:35:15,054 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SalesOrderRepocitoryAnand]
+2020-12-07 14:35:15,057 INFO  [SoapUITestCaseRunner] Running Project [SalesOrderRepocitoryAnand], runType = SEQUENTIAL
+2020-12-07 14:35:15,076 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_012]
+2020-12-07 14:35:15,106 INFO  [SoapUITestCaseRunner] running step [GetRequest]
+2020-12-07 14:35:19,106 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 14:35:19,106 INFO  [SoapUITestCaseRunner] running step [GetList]
+2020-12-07 14:36:48,424 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 14:36:48,429 INFO  [SoapUITestCaseRunner] running step [SaveRequest]
+2020-12-07 14:36:49,673 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 14:36:49,674 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_012], time taken: 94547ms, status: FINISHED
+2020-12-07 14:36:49,688 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_013]
+2020-12-07 14:36:49,689 INFO  [SoapUITestCaseRunner] running step [GetList]
+2020-12-07 14:37:45,438 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 14:37:45,443 INFO  [SoapUITestCaseRunner] running step [RemoveSearchCriteriaRequest]
+2020-12-07 14:38:35,611 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 14:38:35,611 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_013], time taken: 105915ms, status: FINISHED
+2020-12-07 14:38:35,611 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_014]
+2020-12-07 14:38:35,612 INFO  [SoapUITestCaseRunner] running step [OrderIDRequest]
+2020-12-07 14:38:37,100 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 14:38:37,103 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-12-07 14:38:37,473 ERROR [SoapUITestCaseRunner] Property Transfer failed, exporting to [C:\Users\AnandB\Desktop\Training\SOAPUIAssignmentAnand\target/surefire-reports\TestSuite_1-TC_014-Property_Transfer-0-FAILED.txt]
+2020-12-07 14:38:37,476 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_014], time taken: 1849ms, status: FAILED
+2020-12-07 14:38:37,479 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_015]
+2020-12-07 14:38:37,480 INFO  [SoapUITestCaseRunner] running step [GetStatusRequest]
+2020-12-07 14:38:38,621 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 14:38:38,621 INFO  [SoapUITestCaseRunner] running step [OrderIdRequest]
+2020-12-07 14:38:41,798 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 14:38:41,799 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_015], time taken: 4315ms, status: FINISHED
+2020-12-07 14:38:41,803 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC0_16]
+2020-12-07 14:38:41,804 INFO  [SoapUITestCaseRunner] running step [GetCancelRequest]
+2020-12-07 14:38:43,029 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 14:38:43,030 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC0_16], time taken: 1222ms, status: FINISHED
+2020-12-07 14:38:43,036 INFO  [SoapUITestCaseRunner] Project [SalesOrderRepocitoryAnand] finished with status [FAILED] in 207971ms
